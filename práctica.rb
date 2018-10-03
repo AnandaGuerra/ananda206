@@ -12,9 +12,9 @@ puts "Escriba un nombre"
 name= gets.chomp.to_s
 
 case name
-when "Jose"
+when "Jose" .upcase
     puts "#{name} es el padre Jesus."
-when "Maria"
+when "Maria" .upcase
     puts "#{name} es la madre de Jesus."
 else 
     puts "No se cumplio ninguna condición."
